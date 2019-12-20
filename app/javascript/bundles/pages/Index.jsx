@@ -6,10 +6,10 @@ import { Router, Route, Switch } from "react-router-dom";
 import "assets/scss/material-kit-react.scss?v=1.8.0";
 
 // pages for this product
-import Components from "./Components/Components.js";
-import LandingPage from "./LandingPage/LandingPage.js";
-import ProfilePage from "./ProfilePage.js";
-import LoginPage from "./LoginPage.js";
+import Components from "./Components/Components.jsx";
+import LandingPage from "./LandingPage/LandingPage.jsx";
+import ProfilePage from "./ProfilePage.jsx";
+import LoginPage from "./LoginPage.jsx";
 
 var hist = createBrowserHistory();
 
